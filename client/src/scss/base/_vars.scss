@@ -1,0 +1,23 @@
+// default html font-size (px)
+$default-fs: 18;
+
+// Media breakpoints
+$breakpoint-1: 1300px;
+$breakpoint-2: 1020px;
+$breakpoint-3: 790px;
+$breakpoint-4: 570px;
+$breakpoint-5: 420px;
+
+:root {
+    // Without padding container width
+    --container-width: 1020px;
+    // paddings
+    --container-padding: 15px;
+    --default-ff: sans-serif;
+    --default-fw: 400;
+    --main-color: #25547e;
+    --default-text-color: var(--main-color);
+    --sub-color: #a1c2b2;
+    --bg-color: #edf7fe;
+    --header-color: #d4ecfd;
+}

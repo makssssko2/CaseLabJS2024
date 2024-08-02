@@ -1,0 +1,109 @@
+.page {
+    // .page__header
+
+    &__header {
+        background-color: var(--header-color);
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    // .page__main
+
+    &__main {
+        background-color: var(--bg-color);
+        flex-grow: 1;
+        padding: 40px;
+    }
+}
+.header {
+    // .header__container
+
+    &__container {
+        @include flex_row(20px);
+        flex-wrap: wrap;
+        row-gap: 20px;
+        justify-content: space-between;
+        @include sm_screen() {
+            flex-direction: column;
+
+        }
+    }
+
+    &__goBack {
+        @include sm_screen() {
+            order: 4;
+            
+        }
+        img {
+            width: 28px;
+            @include sm_screen() {
+                width: 20px;
+                
+            }
+        }
+    }
+
+    &__title {
+        @include font_set(normal, 36px);
+        flex-grow: 1;
+    }
+}
+.container {
+}
+.main {
+
+    // .main__container
+
+    &__container {
+        @include flex_row(50px);
+        row-gap: 25px;
+        flex-wrap: wrap;
+
+        &_album {
+            column-gap: 25px;
+            .main {
+                // .main__album
+
+                &__album {
+                    flex-basis: 320px;
+                    max-width: 320px;
+                }
+            }
+            .album {
+                // .album__imageContainer
+
+                &__imageContainer {
+                    max-height: 170px;
+                    width: 100%;
+                    overflow: hidden;
+                    border-radius: 8px;
+                }
+
+                &__imageWrapper {
+                    padding: 14px;
+                    width: 100%;
+                    border-radius: 12px;
+                    background-color: #fff;
+                }
+
+                // .album__image
+
+                &__image {
+                    min-width: 100%;
+                    height: auto;
+                }
+
+                // .album__name
+
+                &__name {
+                }
+
+                // .album__count
+
+                &__count {
+                    @include font_set(normal, 16px, var(--sub-color));
+                }
+            }
+        }
+    }
+}

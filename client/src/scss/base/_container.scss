@@ -1,0 +1,19 @@
+html{
+    font-size: $default-fs + px;
+    font-family: var(--default-ff);
+    font-weight: var(--default-fw);
+    color: var(--default-text-color);
+}
+.stop-scroll{
+    overflow: hidden;
+}
+.page {
+    min-height: 100vh;
+    min-width: 98vw;
+    @include flex_column();
+}
+.container{
+    max-width: calc(var(--container-width) + var(--container-padding) * 2);
+    padding: 0 var(--container-padding);
+    margin: 0 auto;
+}

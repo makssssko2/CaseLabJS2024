@@ -1,0 +1,50 @@
+.main {
+
+    // .main__album
+
+    &__album {
+        @include flex_column(6px);
+        cursor: pointer;
+        flex-basis: 470px;
+        max-width: 470px;
+        flex-grow: 1;
+    }
+}
+.album {
+
+    // .album__imageContainer
+
+    &__imageContainer {
+        max-height: 270px;
+        width: 100%;
+        overflow: hidden;
+        border-radius: 8px;
+    }
+
+    &__imageWrapper {
+        padding: 14px;
+        width: 100%;
+        border-radius: 12px;
+        background-color: #FFF;
+    }
+
+    // .album__image
+
+    &__image {
+        min-width: 100%;
+        height: auto;
+    }
+
+    // .album__name
+
+    &__name {
+    }
+
+    // .album__count
+
+    &__count {
+        @include font_set(normal,16px,var(--sub-color));
+    }
+}
+.image {
+}

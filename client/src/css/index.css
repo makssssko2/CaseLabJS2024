@@ -1,0 +1,294 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_reset\.scss}line{font-family:\000031}}
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_reset\.scss}line{font-family:\000037}}
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Links */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_reset\.scss}line{font-family:\0000315}}
+a, a:link, a:visited, a:hover {
+  text-decoration: none; }
+
+/* Common */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_reset\.scss}line{font-family:\0000321}}
+aside, nav, footer, header, section, main {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_reset\.scss}line{font-family:\0000325}}
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_reset\.scss}line{font-family:\0000330}}
+ul, ul li {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_reset\.scss}line{font-family:\0000334}}
+img {
+  vertical-align: top; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_reset\.scss}line{font-family:\0000338}}
+img, svg {
+  max-width: 100%;
+  height: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_reset\.scss}line{font-family:\0000343}}
+address {
+  font-style: normal; }
+
+/* Form */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_reset\.scss}line{font-family:\0000349}}
+input, textarea, button, select {
+  text-align: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_reset\.scss}line{font-family:\0000357}}
+input::-ms-clear {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_reset\.scss}line{font-family:\0000361}}
+button, input[type="submit"] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_reset\.scss}line{font-family:\0000369}}
+input:focus, input:active,
+button:focus, button:active {
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_reset\.scss}line{font-family:\0000374}}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_reset\.scss}line{font-family:\0000379}}
+label {
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_reset\.scss}line{font-family:\0000383}}
+legend {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_vars\.scss}line{font-family:\0000311}}
+:root {
+  --container-width: 1020px;
+  --container-padding: 15px;
+  --default-ff: sans-serif;
+  --default-fw: 400;
+  --main-color: #25547e;
+  --default-text-color: var(--main-color);
+  --sub-color: #a1c2b2;
+  --bg-color: #edf7fe;
+  --header-color: #d4ecfd; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_extends\.scss}line{font-family:\000031}}
+.page, .main__album, .imageView {
+  display: flex;
+  flex-direction: column; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_extends\.scss}line{font-family:\000035}}
+.header__container, .main__container, .imageView__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_container\.scss}line{font-family:\000031}}
+html {
+  font-size: 18px;
+  font-family: var(--default-ff);
+  font-weight: var(--default-fw);
+  color: var(--default-text-color); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_container\.scss}line{font-family:\000037}}
+.stop-scroll {
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_container\.scss}line{font-family:\0000310}}
+.page {
+  min-height: 100vh;
+  min-width: 98vw;
+  row-gap: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/scss\/base\/_container\.scss}line{font-family:\0000315}}
+.container {
+  max-width: calc(var(--container-width) + var(--container-padding) * 2);
+  padding: 0 var(--container-padding);
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/Layout\/_Layout\.scss}line{font-family:\000034}}
+.page__header {
+  background-color: var(--header-color);
+  padding: 30px 0;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/Layout\/_Layout\.scss}line{font-family:\0000312}}
+.page__main {
+  background-color: var(--bg-color);
+  flex-grow: 1;
+  padding: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/Layout\/_Layout\.scss}line{font-family:\0000321}}
+.header__container {
+  column-gap: 20px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-between; }
+  @media (max-width: 570px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/Layout\/_Layout\.scss}line{font-family:\0000321}}
+    .header__container {
+      flex-direction: column; } }
+@media (max-width: 570px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/Layout\/_Layout\.scss}line{font-family:\0000332}}
+  .header__goBack {
+    order: 4; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/Layout\/_Layout\.scss}line{font-family:\0000337}}
+.header__goBack img {
+  width: 28px; }
+  @media (max-width: 570px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/Layout\/_Layout\.scss}line{font-family:\0000337}}
+    .header__goBack img {
+      width: 20px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/Layout\/_Layout\.scss}line{font-family:\0000346}}
+.header__title {
+  color: var(--default-font-color);
+  font-size: 36px;
+  font-weight: var(--default-fw);
+  line-height: normal;
+  font-family: var(--default-ff);
+  flex-grow: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/Layout\/_Layout\.scss}line{font-family:\0000357}}
+.main__container {
+  column-gap: 50px;
+  row-gap: 25px;
+  flex-wrap: wrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/Layout\/_Layout\.scss}line{font-family:\0000362}}
+  .main__container_album {
+    column-gap: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/Layout\/_Layout\.scss}line{font-family:\0000367}}
+    .main__container_album .main__album {
+      flex-basis: 320px;
+      max-width: 320px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/Layout\/_Layout\.scss}line{font-family:\0000375}}
+    .main__container_album .album__imageContainer {
+      max-height: 170px;
+      width: 100%;
+      overflow: hidden;
+      border-radius: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/Layout\/_Layout\.scss}line{font-family:\0000382}}
+    .main__container_album .album__imageWrapper {
+      padding: 14px;
+      width: 100%;
+      border-radius: 12px;
+      background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/Layout\/_Layout\.scss}line{font-family:\0000391}}
+    .main__container_album .album__image {
+      min-width: 100%;
+      height: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/Layout\/_Layout\.scss}line{font-family:\00003103}}
+    .main__container_album .album__count {
+      color: var(--sub-color);
+      font-size: 16px;
+      font-weight: var(--default-fw);
+      line-height: normal;
+      font-family: var(--default-ff); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/Album\/_Album\.scss}line{font-family:\000035}}
+.main__album {
+  row-gap: 6px;
+  cursor: pointer;
+  flex-basis: 470px;
+  max-width: 470px;
+  flex-grow: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/Album\/_Album\.scss}line{font-family:\0000317}}
+.album__imageContainer {
+  max-height: 270px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/Album\/_Album\.scss}line{font-family:\0000324}}
+.album__imageWrapper {
+  padding: 14px;
+  width: 100%;
+  border-radius: 12px;
+  background-color: #FFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/Album\/_Album\.scss}line{font-family:\0000333}}
+.album__image {
+  min-width: 100%;
+  height: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/Album\/_Album\.scss}line{font-family:\0000345}}
+.album__count {
+  color: var(--sub-color);
+  font-size: 16px;
+  font-weight: var(--default-fw);
+  line-height: normal;
+  font-family: var(--default-ff); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/ImageView\/_ImageView\.scss}line{font-family:\000031}}
+.imageView-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #00000035; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/ImageView\/_ImageView\.scss}line{font-family:\0000312}}
+.imageView {
+  background-color: #FFF;
+  margin: 0 15px;
+  padding: 15px;
+  row-gap: 15px;
+  align-items: flex-end;
+  border-radius: 12px;
+  max-width: 700px;
+  width: 100%;
+  height: 65vw;
+  max-height: 510px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/ImageView\/_ImageView\.scss}line{font-family:\0000326}}
+  .imageView__image-container {
+    flex-grow: 1;
+    max-height: calc(100% - 35px);
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/ImageView\/_ImageView\.scss}line{font-family:\0000333}}
+    .imageView__image-container img {
+      width: 100%;
+      height: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/ImageView\/_ImageView\.scss}line{font-family:\0000341}}
+  .imageView__nav {
+    column-gap: 15px;
+    align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/ImageView\/_ImageView\.scss}line{font-family:\0000344}}
+    .imageView__nav button {
+      display: flex;
+      align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/ImageView\/_ImageView\.scss}line{font-family:\0000348}}
+    .imageView__nav img {
+      width: 14px;
+      height: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/ImageView\/_ImageView\.scss}line{font-family:\0000352}}
+    .imageView__nav span {
+      color: var(--sub-color); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/1\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/CaseLabJs\/src\/components\/ImageView\/_ImageView\.scss}line{font-family:\0000358}}
+  .imageView__arrow img {
+    width: 20px;
+    height: 25px; }
+
+/*# sourceMappingURL=index.css.map */
