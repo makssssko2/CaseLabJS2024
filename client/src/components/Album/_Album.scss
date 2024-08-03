@@ -1,5 +1,4 @@
 .main {
-
     // .main__album
 
     &__album {
@@ -11,11 +10,11 @@
     }
 }
 .album {
-
     // .album__imageContainer
 
     &__imageContainer {
         max-height: 270px;
+        height: 100%;
         width: 100%;
         overflow: hidden;
         border-radius: 8px;
@@ -25,7 +24,7 @@
         padding: 14px;
         width: 100%;
         border-radius: 12px;
-        background-color: #FFF;
+        background-color: #fff;
     }
 
     // .album__image
@@ -43,7 +42,7 @@
     // .album__count
 
     &__count {
-        @include font_set(normal,16px,var(--sub-color));
+        @include font_set(normal, 16px, var(--sub-color));
     }
 }
 .image {

@@ -28,6 +28,13 @@ const AlbumPage = () => {
         }
     }, []);
 
+
+    if(imageView) {
+        document.body.style.overflow = 'hidden';
+    } else {
+        document.body.style.overflow = 'auto';
+    }
+
     if (ImageStore.isLoading) {
         return <></>;
     }

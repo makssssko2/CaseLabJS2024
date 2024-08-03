@@ -36,7 +36,6 @@ export default function ImageView({ currentIndex, setView, setIndex }) {
         searchParams.set("image", ImageStore.images[currentIndex + 1].id);
         setSearchParams(searchParams);
         setIndex(currentIndex + 1);
-        console.log(currentIndex);
     }
 
     return (

@@ -46,6 +46,12 @@
     &__title {
         @include font_set(normal, 36px);
         flex-grow: 1;
+        max-width: 98vw;
+        word-wrap: break-word;
+        padding: 0 10px;
+        @include sm_screen() {
+            font-size: 28px;
+        }
     }
 }
 .container {

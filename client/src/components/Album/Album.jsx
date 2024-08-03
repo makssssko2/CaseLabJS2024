@@ -12,7 +12,6 @@ export default function Album(...props) {
     }
 
     useEffect(() => {
-        console.log('render')
         ImageStore.fetchAlbumLength(props[0].name).
         then((res) => setCount(res[0].count))
     },[])
